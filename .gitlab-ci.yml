@@ -20,7 +20,7 @@ pushToGithub:
     - cd /
     - git clone $CI_REPOSITORY_URL app
     - cd app
-    - git remote add github git@github.com:rafaellevissa/galeria-front.git
+    - git remote add github git@github.com:rafaellevissa/codeshow-front.git
     - git push github master
 
 test:
